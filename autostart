@@ -39,7 +39,7 @@ xset -dpms s off
 xfce4-terminal &
 
 # Elevación de privilegios  para ciertas aplicaciones como: Synaptic, Discos, etc
-#/usr/lib/i386-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
 # inicie pulseaudio antes de pnmixer
 #start-pulseaudio-x11 &
@@ -67,16 +67,16 @@ thunar &
 #pcmanfm &
 
 # Editores de texto, elija cual usar (debe instalarlo):
-kate &
+#kate &
 #gedit &
 #pluma &
-#geany &
+geany &
 
 # Poner el bloque de notas en la bandeja del sistema:
 
 feathernotes /home/wachin/Documentos/FeatherNotes/2024-11-wachi-notas.fnx &
 
-# xfce4-notes &
+xfce4-notes &
 
 # Aplicacion para poder expulsar USB, Pendrives
 
@@ -116,7 +116,7 @@ feathernotes /home/wachin/Documentos/FeatherNotes/2024-11-wachi-notas.fnx &
 # Lo siguiente es para aplicaciones opcionales que quiera algún usuario:
 
 # Para hacer capturas de pantalla
-ksnip &
+#ksnip &
 
 # Solucionar que en Debian 12 no funciona el doble clic del touchpad
 # a mi laptop Dell Inspiron 1750

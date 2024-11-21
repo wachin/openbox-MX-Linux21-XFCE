@@ -192,6 +192,8 @@
 <keyboard>
   <chainQuitKey>C-g</chainQuitKey>
   
+    <!-- Custom Applications Launch -->
+    
   <keybind key="C-A-A">
     <action name="Execute">
         <command>xfce4-appfinder</command>
