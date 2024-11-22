@@ -7,7 +7,7 @@ Probado en:
 
 Necesitas las siguientes dependencias:
 ```
-sudo apt install openbox xfce4-appfinder
+sudo apt install openbox xfce4-appfinder feathernotes ksnip
 ```
 
 
