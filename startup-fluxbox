@@ -125,7 +125,8 @@ ksnip &
 # Navegadores web, elija cual usar:
 # firefox-esr &
 #firefox &
-chromium &
+#chromium &
+/usr/bin/google-chrome-stable &
 
 
 # Alarm Clock Applet
