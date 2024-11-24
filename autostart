@@ -74,9 +74,9 @@ geany &
 
 # Poner el bloque de notas en la bandeja del sistema:
 
-feathernotes /home/wachin/Documentos/FeatherNotes/2024-11-wachi-notas.fnx &
+/home/wachin/Documentos/FeatherNotes/WachiNotas.fnx &
 
-xfce4-notes &
+# xfce4-notes &
 
 # Aplicacion para poder expulsar USB, Pendrives
 
@@ -116,7 +116,7 @@ xfce4-notes &
 # Lo siguiente es para aplicaciones opcionales que quiera algún usuario:
 
 # Para hacer capturas de pantalla
-#ksnip &
+ksnip &
 
 # Solucionar que en Debian 12 no funciona el doble clic del touchpad
 # a mi laptop Dell Inspiron 1750
@@ -132,8 +132,8 @@ xfce4-notes &
 # Navegadores web, elija cual usar:
 # firefox-esr &
 #firefox &
-chromium &
-
+#chromium &
+/usr/bin/google-chrome-stable &
 
 # Alarm Clock Applet
 alarm-clock-applet  &
